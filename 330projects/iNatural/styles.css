@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+section {
+  text-align: center;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.bird-card {
+  background-color: aqua;
+  margin: 20px;
+  width: 400px;
+}
+.bird-card img {
+  width: 300px;
+}
+
+@media screen and (min-width: 1024px) {
+  section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
